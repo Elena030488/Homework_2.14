@@ -154,6 +154,7 @@ class IntegerListImplTest {
     void sort() {
         Integer[] expected = {ZERO, ONE, TWO, THREE, FOUR};
         assertArrayEquals(expected, integerList.sort());
+        assertArrayEquals(expected, integerList.quickSort());
     }
 
     @Test

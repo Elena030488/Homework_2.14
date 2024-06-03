@@ -77,4 +77,5 @@ public interface IntegerList {
     // и вернуть его.
     Integer[] toArray();
     Integer[] sort();
+    Integer[] quickSort();
 }
